@@ -162,7 +162,8 @@ footer p {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.card {
+.card,
+.photo-grid {
   background-color: white;
   margin: 30px;
 }
@@ -205,6 +206,13 @@ footer p {
 .tacoma-photos {
   background-color: white;
 }
+.photo-grid {
+  gap: 30px;
+}
+.gallery-img {
+  width: 330px;
+  padding: 0 30pxd;
+}
 .links {
   display: flex;
   flex-direction: column;
@@ -232,7 +240,8 @@ footer p {
   }
   footer,
   .glass-bridge,
-  .restaurant-cards {
+  .restaurant-cards,
+  .photo-grid {
     grid-template-columns: 1fr;
     gap: 32px;
   }
