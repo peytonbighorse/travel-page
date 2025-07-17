@@ -163,11 +163,15 @@ footer p {
   background-color: white;
   margin: 30px;
 }
+.card-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .card-body {
   padding: 30px;
 }
 .card-footer {
-  padding: 30px;
+  padding: 0 30px 30px;
 }
 .card a {
   font-weight: 700;
@@ -189,6 +193,11 @@ footer p {
   background-color: #7e606686;
   transform: scale(1.05);
   color: white;
+}
+.map-embed {
+  border: 0;
+  width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 .links {
@@ -224,5 +233,14 @@ footer p {
   }
   .glass-bridge-section {
     padding: 0;
+  }
+  .card-header {
+    grid-template-columns: 1fr;
+  }
+  .card img {
+    display: none;
+  }
+  .map-embed {
+    aspect-ratio: 16 / 9;
   }
 }
