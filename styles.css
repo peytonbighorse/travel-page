@@ -152,10 +152,13 @@ footer p {
   background-color: #f8f8f8;
 }
 .restaurants h2,
-.restaurants h3 {
+.restaurants h3,
+.tacoma-photos h2,
+.tacoma-photos h3 {
   text-align: center;
 }
-.restaurant-cards {
+.restaurant-cards,
+.photo-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
@@ -199,7 +202,9 @@ footer p {
   width: 100%;
   aspect-ratio: 1 / 1;
 }
-
+.tacoma-photos {
+  background-color: white;
+}
 .links {
   display: flex;
   flex-direction: column;
